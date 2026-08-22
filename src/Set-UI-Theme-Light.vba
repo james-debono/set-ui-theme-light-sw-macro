@@ -1,5 +1,5 @@
 '==============================================================================
-' UI - Light
+' Set UI Theme - Light
 '
 ' Sets the SOLIDWORKS interface brightness theme to Light.
 '
@@ -19,15 +19,16 @@
 ' correctly. The fault is inside SOLIDWORKS' task pane code, not this macro -
 ' changing the theme by hand in System Options produces it too.
 '
-'   Version   0.1.1
-'   Date      2026-08-20
+'   Version   0.2.0
+'   Date      2026-08-21
 '   Author    James Debono
 '   Licence   MIT - full text below
-'   Source    https://github.com/james-debono/themes-sw-macro
+'   Source    https://github.com/james-debono/set-ui-theme-light-sw-macro
 '
 '------------------------------------------------------------------------------
 ' CHANGELOG (summary - see CHANGELOG.md for the full history)
 '
+'   0.2.0   Renamed from "UI - Light". Now has its own repository.
 '   0.1.1   Source URL updated for the repository rename.
 '   0.1.0   First numbered release.
 '
@@ -78,9 +79,9 @@ try_:
     GoTo finally_
 
 catch_:
-    Debug.Print "UI - Light error: " & Err.Number & " - " & Err.Description
+    Debug.Print "Set UI Theme - Light error: " & Err.Number & " - " & Err.Description
     If Not swApp Is Nothing Then
-        swApp.SendMsgToUser2 "UI - Light failed: " & Err.Description, _
+        swApp.SendMsgToUser2 "Set UI Theme - Light failed: " & Err.Description, _
             swMessageBoxIcon_e.swMbWarning, swMessageBoxBtn_e.swMbOk
     End If
 

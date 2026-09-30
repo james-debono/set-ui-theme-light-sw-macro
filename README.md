@@ -7,7 +7,7 @@ Options > Colors** every time.
 **Tested on SOLIDWORKS 2022, 2024 and 2025.** Other versions are likely to
 work; they are simply untested.
 
-> **Want all ten macros at once?** This one is part of the [MacroShelf
+> **Want the whole set at once?** This one is part of the [MacroShelf
 > Collection](https://github.com/james-debono/macroshelf-collection-sw-macro-library) — a single
 > download, already arranged as a library for the [MacroShelf](https://github.com/james-debono/macroshelf-sw-addin)
 > add-in, so every macro lands on a SOLIDWORKS toolbar tab with its icon and
@@ -34,7 +34,7 @@ Customize > Keyboard** assigns a keyboard shortcut instead.
 the [MacroShelf
 Collection](https://github.com/james-debono/macroshelf-collection-sw-macro-library/releases/latest),
 which packages this macro with its icon and hover text alongside every other
-macro in the set. The five theme macros appear together as a Themes drop-down.
+macro in the set. The theme macros appear together as a Themes drop-down.
 
 ## Known quirk
 
